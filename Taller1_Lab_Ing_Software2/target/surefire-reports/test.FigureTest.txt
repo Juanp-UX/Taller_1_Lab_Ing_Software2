@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: test.FigureTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.092 s <<< FAILURE! -- in test.FigureTest
+test.FigureTest.testGetX1 -- Time elapsed: 0.027 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "figures.Figure.getX1()" because "instance" is null
+	at test.FigureTest.testGetX1(FigureTest.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+test.FigureTest.testGetY1 -- Time elapsed: 0.005 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "figures.Figure.getY1()" because "instance" is null
+	at test.FigureTest.testGetY1(FigureTest.java:84)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+test.FigureTest.testSetX1 -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "figures.Figure.setX1(double)" because "instance" is null
+	at test.FigureTest.testSetX1(FigureTest.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+test.FigureTest.testSetY1 -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "figures.Figure.setY1(double)" because "instance" is null
+	at test.FigureTest.testSetY1(FigureTest.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+test.FigureTest.testCalculatePerimeter -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "figures.Figure.calculatePerimeter()" because "instance" is null
+	at test.FigureTest.testCalculatePerimeter(FigureTest.java:112)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+test.FigureTest.testCalculateArea -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "figures.Figure.calculateArea()" because "instance" is null
+	at test.FigureTest.testCalculateArea(FigureTest.java:98)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
